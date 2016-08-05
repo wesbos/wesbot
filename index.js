@@ -1,4 +1,4 @@
-const Twit = require('twit')
+const Twit = require('twit');
 
 /*
   HEY
@@ -18,7 +18,7 @@ const niceThingsToSay = [
   'Operator Mono! http://WesBos.com/uses',
   'At your service! It\'s operator mono! http://WesBos.com/uses',
   'wait for it................  operator mono! → → → →  http://WesBos.com/uses',
-  'Hey! check out http://WesBos.com/uses - it\'s Operator Mono',
+  'Hey! check out http://WesBos.com/uses - it\'s Operator Mono'
 ];
 
 const funEmojis = ['👊','🔥','👍','🎉','💁','🙃','🍕','😎','😘','👏','✌️','👌','👈','👙','🐷','🍟'];
@@ -31,7 +31,7 @@ function buildTweet() {
   return `${sentence} ${emoji}`;
 }
 
-const stream = T.stream('statuses/filter', { track: 'wesbos font' })
+const stream = T.stream('statuses/filter', { track: 'wesbos font' });
 
 stream.on('tweet', (tweet) => {
   console.log(tweet);
