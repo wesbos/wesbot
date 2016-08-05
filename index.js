@@ -18,7 +18,7 @@ const niceThingsToSay = [
   'Operator Mono! http://WesBos.com/uses',
   'At your service! It\'s operator mono! http://WesBos.com/uses',
   'wait for it................  operator mono! → → → →  http://WesBos.com/uses',
-  'Hey! check out http://WesBos.com/uses - it\'s Operator Mono'
+  'Hey! check out http://WesBos.com/uses - it\'s Operator Mono',
 ];
 
 const funEmojis = ['👊','🔥','👍','🎉','💁','🙃','🍕','😎','😘','👏','✌️','👌','👈','👙','🐷','🍟'];
