@@ -5,7 +5,7 @@ const Twit = require('twit')
 
   YA U
 
-  Rename config.sample.js to conig.js
+  Rename config.sample.js to config.js
 
   k
 */
