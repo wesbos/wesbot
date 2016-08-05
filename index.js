@@ -10,7 +10,6 @@ const Twit = require('twit')
   k
 */
 const config = require('./config');
-
 const T = new Twit(config);
 
 const niceThingsToSay = [
@@ -44,7 +43,3 @@ stream.on('tweet', (tweet) => {
     console.log(response);
   });
 });
-
-
-
-
