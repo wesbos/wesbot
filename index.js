@@ -1,4 +1,4 @@
-const Twit = require('twit')
+const Twit = require('twit');
 
 /*
   HEY
@@ -31,7 +31,7 @@ function buildTweet() {
   return `${sentence} ${emoji}`;
 }
 
-const stream = T.stream('statuses/filter', { track: 'wesbos font' })
+const stream = T.stream('statuses/filter', { track: 'wesbos font' });
 
 stream.on('tweet', (tweet) => {
   console.log(tweet);
