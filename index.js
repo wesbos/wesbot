@@ -34,6 +34,10 @@ function buildTweet() {
 const stream = T.stream('statuses/filter', { track: 'wesbos font' });
 
 stream.on('tweet', (tweet) => {
+  
+  // don't tweet myself 🤦
+  if (tweet.user.screen_name === 'wesbos') return;
+  
   console.log(tweet);
   const createdTweet = {
     status: `@${tweet.user.screen_name} ${buildTweet()}`,
